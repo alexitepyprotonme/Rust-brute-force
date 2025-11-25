@@ -1,0 +1,1 @@
+cargo run -- -c --url http://example.ir/protect --file combo_list_small.txt --sleep 1000 --limit 10

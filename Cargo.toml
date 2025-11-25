@@ -1,0 +1,18 @@
+[package]
+name = "rust_brute_force"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.13"
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+clap = "2.33.0"
+prettytable = "0.10.0"
+chrono="0.4.31"
+termcolor = "1.1.2"
+rayon="1.8.0"
+rand = "0.8"
